@@ -84,9 +84,10 @@ void eliminaElementos(List*L, int elem){
     if(*dato == elem){
       popCurrent(L);
     }
-    dato = (int*)next(L);
+    else{
+      dato = (int*)next(L);
+    }
   }
-  
 }
 
 /*
@@ -97,6 +98,7 @@ Puedes usar una pila auxiliar.
 */
 
 void copia_pila(Stack* P1, Stack* P2) {
+  return 0;
 }
 
 /*
