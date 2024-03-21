@@ -23,3 +23,21 @@ Thu 21 Mar 2024 03:30:46 AM UTC:
  tests:  1|4
 total_score: 10/70
 b4820b4
+Thu 21 Mar 2024 01:25:34 PM UTC: 
+ exercises.c | 5 +++++
+ 1 file changed, 5 insertions(+)
+In file included from test.c:5:
+exercises.c: In function ‘crea_lista’:
+exercises.c:48:7: error: implicit declaration of function ‘push_back’; did you mean ‘pushBack’? [-Werror=implicit-function-declaration]
+   48 |       push_back(L, (void*)malloc(sizeof(int)));
+      |       ^~~~~~~~~
+      |       pushBack
+exercises.c:49:14: error: implicit declaration of function ‘last’ [-Werror=implicit-function-declaration]
+   49 |       *(int*)last(L) = i;
+      |              ^~~~
+exercises.c:49:8: error: cast to pointer from integer of different size [-Werror=int-to-pointer-cast]
+   49 |       *(int*)last(L) = i;
+      |        ^
+cc1: all warnings being treated as errors
+Compilation failed
+bcccbf7
