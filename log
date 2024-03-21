@@ -91,3 +91,15 @@ exercises.c:50:35: error: expected ‘;’ before ‘back’
       |                                   ;
 Compilation failed
 71365f6
+Thu 21 Mar 2024 01:33:00 PM UTC: 
+ exercises.c | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘crea_lista’:
+exercises.c:50:6: error: implicit declaration of function ‘push_back’; did you mean ‘pushBack’? [-Werror=implicit-function-declaration]
+   50 |      push_back(L, dato);
+      |      ^~~~~~~~~
+      |      pushBack
+cc1: all warnings being treated as errors
+Compilation failed
+adb86b7

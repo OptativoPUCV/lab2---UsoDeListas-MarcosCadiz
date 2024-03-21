@@ -45,10 +45,9 @@ List* crea_lista() {
    List* L = create_list();
    for(int i = 1;i <= 10; i++){
      int* dato = (int*)malloc(sizeof(int));
-     if(dato == NULL) exit(EXIT_FAILURE)
+     if(dato == NULL) exit(EXIT_FAILURE);
      *dato = i;
-     pushBack(List *L, void *dato)back(L, dato);
-     
+     push_back(L, dato);
    }
    return L;
 }
