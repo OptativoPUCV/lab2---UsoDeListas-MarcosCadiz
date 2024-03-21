@@ -103,3 +103,9 @@ exercises.c:50:6: error: implicit declaration of function ‘push_back’; did y
 cc1: all warnings being treated as errors
 Compilation failed
 adb86b7
+Thu 21 Mar 2024 01:33:31 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  1|4
+total_score: 10/70
+f6211fe
