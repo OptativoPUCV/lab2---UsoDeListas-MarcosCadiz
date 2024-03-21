@@ -41,3 +41,15 @@ exercises.c:49:8: error: cast to pointer from integer of different size [-Werror
 cc1: all warnings being treated as errors
 Compilation failed
 bcccbf7
+Thu 21 Mar 2024 01:28:14 PM UTC: 
+ exercises.c | 9 +++++----
+ 1 file changed, 5 insertions(+), 4 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘crea_lista’:
+exercises.c:50:6: error: implicit declaration of function ‘push_back’; did you mean ‘pushBack’? [-Werror=implicit-function-declaration]
+   50 |      push_back(L, dato);
+      |      ^~~~~~~~~
+      |      pushBack
+cc1: all warnings being treated as errors
+Compilation failed
+27db4e8
