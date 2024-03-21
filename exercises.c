@@ -98,16 +98,20 @@ Puedes usar una pila auxiliar.
 void copia_pila(Stack* P1, Stack* P2) {
   Stack* P3 = create_stack();
   void* dato;
-  while((dato = pop(P1)) != NULL){
+  dato = top(P1);
+  while(dato != NULL){
     push(P3, dato);
+    dato = pop(P1);
     
   }
-  while((dato = pop(P3)) != NULL){
+  dato = top(P3);
+  while(dato != NULL){
     push(P2, dato);
+    dato = pop(P3);
     
   }
+  
 }
-
 /*
 Ejercicio 5.
 La función verifica si la cadena de entrada tiene sus 
