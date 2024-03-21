@@ -45,7 +45,7 @@ List* crea_lista() {
    List* L = create_list();
    return L;
 }
-//A
+//Prueba para ver si se guarda
 /*
 Ejercicio 2.
 Crea una función que reciba una lista de enteros (int*) y 
