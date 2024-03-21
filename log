@@ -345,3 +345,20 @@ exercises.c:161:1: error: control reaches end of non-void function [-Werror=retu
 cc1: all warnings being treated as errors
 Compilation failed
 caaf0ff
+Thu 21 Mar 2024 09:15:25 PM UTC: 
+ exercises.c | 34 +++-------------------------------
+ 1 file changed, 3 insertions(+), 31 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:133:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘}’ token
+  133 | }
+      | ^
+exercises.c:131:7: error: unused variable ‘j’ [-Werror=unused-variable]
+  131 |   int j = 0;
+      |       ^
+exercises.c:133:1: error: control reaches end of non-void function [-Werror=return-type]
+  133 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+d5aaaef
