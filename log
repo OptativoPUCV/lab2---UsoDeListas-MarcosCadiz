@@ -1,0 +1,13 @@
+Thu 21 Mar 2024 03:30:17 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c:48:8: error: expected ‘;’ before ‘int’
+   48 | AAAAAAA
+      |        ^
+      |        ;
+......
+   54 | int sumaLista(List *L) {
+      | ~~~     
+Compilation failed
+653b776
