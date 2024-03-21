@@ -290,3 +290,9 @@ exercises.c:108:15: error: ‘dato2’ is used uninitialized [-Werror=uninitiali
 cc1: all warnings being treated as errors
 Compilation failed
 6415f43
+Thu 21 Mar 2024 08:46:52 PM UTC: 
+ exercises.c | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+ tests:  6|2
+total_score: 50/70
+4290baf
