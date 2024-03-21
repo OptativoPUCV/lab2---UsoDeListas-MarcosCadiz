@@ -65,3 +65,29 @@ exercises.c:49:6: error: implicit declaration of function ‘push_back’; did y
 cc1: all warnings being treated as errors
 Compilation failed
 62b8512
+Thu 21 Mar 2024 01:32:05 PM UTC: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crea_lista’:
+exercises.c:48:23: error: void value not ignored as it ought to be
+   48 |      if(dato == NULL) exit(EXIT_FAILURE)
+      |                       ^~~~~~~~~~~~~~~~~~
+exercises.c:50:15: error: expected expression before ‘List’
+   50 |      pushBack(List *L, void *dato)back(L, dato);
+      |               ^~~~
+exercises.c:50:6: error: too few arguments to function ‘pushBack’
+   50 |      pushBack(List *L, void *dato)back(L, dato);
+      |      ^~~~~~~~
+In file included from exercises.c:6,
+                 from test.c:5:
+arraylist.h:20:6: note: declared here
+   20 | void pushBack(List *L, void *dato);
+      |      ^~~~~~~~
+In file included from test.c:5:
+exercises.c:50:35: error: expected ‘;’ before ‘back’
+   50 |      pushBack(List *L, void *dato)back(L, dato);
+      |                                   ^~~~
+      |                                   ;
+Compilation failed
+71365f6
